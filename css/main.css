@@ -42,13 +42,17 @@ nav {
     display: flex;
 }
 h1 {
+    width: 100%;
     position: absolute;
-    padding: 50px;
     font-family: 'Dancing Script';
     font-size: 50px;
     top: 390px;
-    left: 340px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
     color: darkgrey;
+    width: 100%;
 
 }
 .absolute {
@@ -60,10 +64,12 @@ h1 {
 }
 .audio {
     position: absolute;
-    width: 1000px;
+    width: 100%;
     top: 500px;
-    left: 160px;
+    left: 0;
+    right: 0;  
     outline: none;
+    /* padding: 0.1px; */
 }
 .background-img1 {
     background-image: url(../img/bg.jfif);
@@ -92,9 +98,16 @@ h2 {
     position: absolute;
     top: 170px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    /* padding: 15px; */
 }
-.audio2 {
+audio {
+    padding: 15px;
+    outline: none;
+}
+
+/* .audio2 {
     position: absolute;
     top: 170px;
     right: 50px;
@@ -110,5 +123,4 @@ audio {
     top: 170px;
     left: 520px;
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column; */
