@@ -69,7 +69,7 @@ h1 {
     left: 0;
     right: 0;  
     outline: none;
-    /* padding: 0.1px; */
+    padding: 0.1px;
 }
 .background-img1 {
     background-image: url(../img/bg.jfif);
