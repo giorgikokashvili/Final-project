@@ -80,13 +80,35 @@ h2 {
     color: darkgrey;
     font-family: 'Dancing Script';
 }
+.h2 {
+    display: flex;
+    justify-content: center;
+}
+.audio-box {
+    display: flex;
+    justify-content: space-between;
+}
 .audio1 {
     position: absolute;
     top: 170px;
     display: flex;
     flex-direction: column;
 }
+.audio2 {
+    position: absolute;
+    top: 170px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+}
 audio {
-    padding: 7px;
+    padding: 10px;
     outline: none;
+}
+.audio3 {
+    position: absolute;
+    top: 170px;
+    left: 520px;
+    display: flex;
+    flex-direction: column;
 }
