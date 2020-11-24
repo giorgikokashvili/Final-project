@@ -10,6 +10,29 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
 }
+.container {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  .change .bar2 {
+    opacity: 0;
+  }
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
 .background-img {
     background-image: url(../img/background.jpg);
     width: 100%;
@@ -106,21 +129,52 @@ audio {
     padding: 15px;
     outline: none;
 }
+.mobile {
+    display: none;
+    position: absolute;
+    top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 
-/* .audio2 {
-    position: absolute;
-    top: 170px;
-    right: 50px;
-    display: flex;
-    flex-direction: column;
 }
-audio {
-    padding: 10px;
-    outline: none;
+@media (max-width: 540px) {
+    ul {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .background-img {
+        background-image: url(../img/pic6.jpg);
+        width: 100%;
+        height: 657px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .mobile {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .audio1 {
+        display: none;
+    }
+    .background-img1 {
+        background-image: url(../img/pic5.jpg);
+        width: 100%;
+        height: 657px;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+    }
+    .navbar-li {
+        font-size: 15px;
+    }
+    .in-page {
+        font-size: 15px;
+    }
+
 }
-.audio3 {
-    position: absolute;
-    top: 170px;
-    left: 520px;
-    display: flex;
-    flex-direction: column; */
