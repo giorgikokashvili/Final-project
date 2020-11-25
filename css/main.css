@@ -10,29 +10,6 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
 }
-.burger {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-  }
-  .change .bar2 {
-    opacity: 0;
-  }
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-  }
 .background-img {
     background-image: url(../img/background.jpg);
     width: 100%;
@@ -45,7 +22,7 @@ nav {
     display: inline-block;
     font-size: 20px;
     margin: 0 20px;
-    font-family: 'Dancing Script';
+    font-family: 'Aquire';
 }
 .navbar-li:hover {
     transform: scale(1.5);
@@ -53,21 +30,19 @@ nav {
 .navbar-a {
     text-decoration: none;
     color: darkgray;
-    font-style: oblique;
 }
-.in-page {
-    font-size: 30px;
-}
-.pics1 {
-    height: 50px;
-}
-.flex {
-    display: flex;
+.quote {
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Aquire';
+    top: 455px;
+    color: darkgrey;
 }
 h1 {
     width: 100%;
     position: absolute;
-    font-family: 'Dancing Script';
+    font-family: 'Aquire';
+  
     font-size: 50px;
     top: 390px;
     left: 0;
@@ -78,22 +53,6 @@ h1 {
     width: 100%;
 
 }
-.absolute {
-    position: absolute;
-    width: 70px;
-    top: 120px;
-    left: 200px;
-    transform: rotate(20deg);
-}
-.audio {
-    position: absolute;
-    width: 100%;
-    top: 500px;
-    left: 0;
-    right: 0;  
-    outline: none;
-    padding: 0.1px;
-}
 .background-img1 {
     background-image: url(../img/bg.jfif);
     width: 100%;
@@ -102,41 +61,83 @@ h1 {
     background-size: contain;
     position: relative;
 }
-h2 {
-    position: absolute;
-    top: 100px;
-    font-size: 35px;
-    color: darkgrey;
-    font-family: 'Dancing Script';
-}
 .h2 {
+    position: absolute;
+    bottom: 369px;
+    padding: 28px;
     display: flex;
     justify-content: center;
+    font-size: 35px;
+    color: darkgrey;
+    font-family: 'Aquire';
 }
+
 .audio-box {
-    display: flex;
-    justify-content: space-between;
-}
-.audio1 {
-    position: absolute;
-    top: 170px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    /* padding: 15px; */
+    position: relative;
+    top: 300px
 }
 audio {
     padding: 15px;
     outline: none;
 }
-.mobile {
-    display: none;
-    position: absolute;
-    top: 170px;
-    display: flex;
-    flex-wrap: wrap;
+.background-img2 {
+    background-image: url(../img/bg2.jpg);
+    max-width: 100%;
+    height: 657px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background-img3 {
+    background-image: url(../img/pic3.jfif);
     width: 100%;
-
+    height: 657px;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+.dis {
+    position: relative;
+    top: 100px;
+}
+h3 {
+    font-size: 35px;
+    bottom: 369px;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: darkgrey;
+    font-family: 'Aquire';
+}
+.albums {
+    position: absolute;
+    top: 20px;
+}
+.album, .album1, .album2, .album3 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.album {
+    top: 200px;
+}
+.album1 {
+    top: 300px;
+}
+.album2 {
+   top: 400px;
+}
+.album3 {
+    top: 500px;
+}
+.album-box {
+    padding: 20px;
+    width: 400px;
+}
+.text-none {
+    text-decoration: none;
+    font-family: 'Aquire';
+    color: darkgrey;
 }
 @media (max-width: 540px) {
     ul {
@@ -169,12 +170,17 @@ audio {
         background-position: center;
         background-size: contain;
         position: relative;
+    } 
+    .mobile-music {
+        display: none;
+    }
+    .album2  {
+        display: none;
+    }
+    .album3 {
+        display: none;
     }
     .navbar-li {
         font-size: 15px;
     }
-    .in-page {
-        font-size: 15px;
-    }
-
 }
