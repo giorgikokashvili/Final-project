@@ -71,9 +71,15 @@ h1 {
     color: darkgrey;
     font-family: 'Aquire';
 }
-
-.audio-box {
+.h2-mobile {
     position: absolute;
+    padding: 28px;
+    font-size: 25px;
+    color: darkgrey;
+    font-family: 'Aquire';
+}
+.audio-box {
+    position: relative;
     top: 300px
 }
 audio {
@@ -106,7 +112,17 @@ h5 {
     left: 60px;
     color: darkgray;
     font-size: 20px;
-    
+    column-count: 3;
+}
+.mob-band-info {
+    display: none;
+    position: absolute;
+    top: 150px;
+    font-family: 'Aquire';
+    width: 100%;
+    left: 60px;
+    color: darkgray;
+    font-size: 18px;
 }
 .background-img3 {
     background-image: url(../img/pic3.jfif);
@@ -124,7 +140,7 @@ h3 {
     font-size: 35px;
     bottom: 369px;
     padding: 28px;
-    display: flex;
+    display: flex;;
     justify-content: center;
     font-size: 35px;
     color: darkgrey;
@@ -135,20 +151,28 @@ h3 {
     width: 100%;
     top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     top: 300px;
+    align-items: center;
+}
+.mobile-albums {
+    display: block;
+
 }
 .album {
     top: 200px;
 }
 .album1 {
     top: 300px;
+    display: block;
 }
 .album2 {
    top: 400px;
+   display: block;
 }
 .album3 {
     top: 500px;
+    display: block;
 }
 .album-box {
     padding: 20px;
@@ -159,7 +183,15 @@ h3 {
     font-family: 'Aquire';
     color: darkgrey;
 }
-@media (max-width: 540px) {
+h6 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: darkgrey;
+    font-family: 'Aquire';
+    padding: 80px;
+}
+@media screen and  (max-width: 540px) {
     ul {
         /* display: none; */
         position: fixed;
@@ -181,6 +213,9 @@ h3 {
     .audio1 {
         display: none;
     }
+    .audio-box {
+        top: 100px;
+    }
     .background-img1 {
         background-image: url(../img/pic5.jpg);
         width: 100%;
@@ -188,17 +223,39 @@ h3 {
         background-position: center;
         background-size: contain;
         position: relative;
-    } 
+    }
     .mobile-music {
         display: none;
     }
     .navbar-li {
         font-size: 15px;
     }
+    .albums {
+        display: none;
+    }
+    /* .album1{
+        display: none;
+    }
     .album2 {
         display: none;
     }
     .album3 {
         display: none;
+    } */
+    .info {
+        display: none;
+    }
+    .mob-band-info {
+        display: block;
+    }
+    .mobile-block {
+        top: 20px;
+    }
+    .h2 {
+        display: none;
+        top: -60px;
+    }
+    .h2-mobile {
+        display: block;
     }
 }
