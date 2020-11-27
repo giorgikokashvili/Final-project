@@ -208,10 +208,69 @@ h6 {
     font-family: 'Aquire';
     padding: 80px;
 }
+.input-container {
+    max-width: 800px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 104px;
+    position: relative;
+}
+textarea {
+    width:250px;
+    height: 168px;
+    font-family: 'Aquire';
+    border-radius: 2px;
+    resize: none;
+}
+input {
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Aquire';
+}
+button {
+    position: absolute;
+    top: 188px;
+    padding: 10px 50px;
+    right: 129px;
+    font-family: 'Aquire';
+}
+.footer-container {
+    max-width: 1166px;
+    width: 100%;
+    margin: 0 auto;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.logo {
+    width: 100px;
+    transition: all 0.3s linear 0.9s;
+	animation-name: logo;
+	animation-duration: 9s;
+	animation-delay: 2s;
+	animation-delay: 2s; 
+	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-direction: alternate-reverse;
+	animation-direction: reverse;
+	animation-timing-function: linear
+
+}
+@keyframes logo {
+    from {
+         transform: rotate(360deg);
+     }
+    to  {
+        transform: rotate(360 deg);
+    }
+}
 @media screen and  (max-width: 540px) {
     ul {
-        /* display: none; */
-        position: fixed;
+        display: none;
     }
     .background-img {
         background-image: url(../img/bg-1.jpg);
