@@ -35,8 +35,8 @@ nav {
     position: absolute;
     font-size: 35px;
     font-family: 'Aquire';
-    top: 455px;
-    color: darkgrey;
+    top: 470px;
+    color: rgb(43, 37, 37);
     margin-left: 20px;
 }
 h1 {
@@ -49,8 +49,7 @@ h1 {
     right: 0;
     display: flex;
     justify-content: center;
-    color: darkgrey;
-    width: 100%;
+    color: rgb(43, 37, 37);
 }
 .background-img1 {
     background-image: url(../img/music.jpg);
@@ -68,14 +67,14 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 35px;
-    color: darkgrey;
+    color: rgb(43, 37, 37);
     font-family: 'Aquire';
 }
 .h2-mobile {
     position: absolute;
     padding: 28px;
     font-size: 25px;
-    color: darkgrey;
+    color: rgb(43, 37, 37);
     font-family: 'Aquire';
 }
 .audio-box {
@@ -105,7 +104,7 @@ h5 {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 35px;
-    color: darkgrey;
+    color: rgb(43, 37, 37);
     font-family: 'Aquire';
     padding: 80px;
 }
@@ -118,7 +117,7 @@ h5 {
     font-family: 'Aquire';
     max-width: 1366px;
     left: 60px;
-    color: darkgray;
+    color: rgb(43, 37, 37);
     font-size: 20px;
 }
 .mobile-info {
@@ -131,7 +130,7 @@ h5 {
     font-family: 'Aquire';
     width: 100%;
     left: 60px;
-    color: darkgray;
+    color: rgb(43, 37, 37);
     font-size: 18px;
 }
 .background-img3 {
@@ -151,7 +150,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 35px;
-    color: darkgrey;
+    color: rgb(43, 37, 37);
     font-family: 'Aquire';
 }
 .dis {
@@ -198,16 +197,21 @@ h3 {
 .text-none {
     text-decoration: none;
     font-family: 'Aquire';
-    color: darkgrey;
+    color: rgb(43, 37, 37);
 }
 h6 {
     display: flex;
     justify-content: center;
     font-size: 35px;
-    color: darkgrey;
+    color: rgb(43, 37, 37);
     font-family: 'Aquire';
     padding: 80px;
 }
+.input-section {
+    background-color: #585252d7;
+    padding: 35px 0;
+}
+
 .input-container {
     max-width: 800px;
     width: auto;
@@ -229,6 +233,7 @@ input {
     width: 250px;
     padding: 10px;
     margin: 5px;
+    color: rgb(43, 37, 37);
     font-family: 'Aquire';
 }
 button {
