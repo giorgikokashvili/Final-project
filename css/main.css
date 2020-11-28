@@ -318,9 +318,9 @@ footer {
     .album-box {
         padding: 15px;
     }
-    .info {
+    /* .info {
         display: none;
-    }
+    } */
     .mobile-info {
         display: block;
     }
