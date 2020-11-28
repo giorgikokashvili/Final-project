@@ -120,7 +120,7 @@ h5 {
     color: rgb(43, 37, 37);
     font-size: 20px;
 }
-.mobile-info {
+/* .band-info {
     display: none;
     position: absolute;
     display: flex;
@@ -132,7 +132,7 @@ h5 {
     left: 60px;
     color: rgb(43, 37, 37);
     font-size: 18px;
-}
+} */
 .background-img3 {
     background-image: url(../img/bg-9.jpg);
     max-width: 1366px;
@@ -318,9 +318,9 @@ footer {
     .album-box {
         padding: 15px;
     }
-    /* .info {
+    .band-info {
         display: none;
-    } */
+    }
     .mobile-info {
         display: block;
     }
@@ -333,9 +333,9 @@ footer {
     h3 {
         display: none;
     }
-    h5 {
+    /* h5 {
         display: none;
-    }
+    } */
     .h2-mobile {
         display: block;
     }
