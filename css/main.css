@@ -62,7 +62,7 @@ h1 {
 }
 .h2 {
     position: absolute;
-    bottom: 369px;
+    bottom: 452px;
     padding: 28px;
     display: flex;
     justify-content: center;
@@ -83,7 +83,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    top: 300px
+    top: 199px;
 }
 audio {
     padding: 15px;
