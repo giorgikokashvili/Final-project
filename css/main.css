@@ -234,12 +234,15 @@ button {
     font-family: 'Aquire';
 }
 .footer-container {
+    position: relative;
+    display: flex;
     max-width: 1166px;
     width: 100%;
     margin: 0 auto;
 }
 footer {
     background-color: rgba(0, 0, 0, 0.753);
+    padding: 20px;
 }
 .logo {
     width: 100px;
@@ -262,6 +265,24 @@ footer {
     to  {
         transform: rotate(360 deg);
     }
+}
+.comunication {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.youtube {
+    width: 50px;
+}
+.my-info {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.541);
+    font-family: 'Aquire';
 }
 @media screen and  (max-width: 540px) {
     .navbar {
