@@ -234,7 +234,7 @@ button {
     font-family: 'Aquire';
 }
 .button-2 {
-    display: block;
+    display: none;
     position: absolute;
     top: 367px;
     padding: 10px 50px;
