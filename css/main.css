@@ -213,7 +213,7 @@ h6 {
     position: relative;
 }
 textarea {
-    width:250px;
+    width: 267px;
     height: 168px;
     font-family: 'Aquire';
     border-radius: 2px;
@@ -292,13 +292,37 @@ footer {
     color: rgba(255, 255, 255, 0.541);
     font-family: 'Aquire';
 }
+.topnav {
+    overflow: hidden;
+    display: none;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .topnav a:hover {
+    transform: scale(1.5);
+  }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .topnav .icon {
+    display: none;
+  }
+
 @media (max-width: 420px) {
-    /* .navbar {
+    .topnav {
+        display: block;
+    }
+    ul {
         display: none;
-    } */
-    /* ul {
-        display: none;
-    } */
+    }
     .background-img {
         background-image: url(../img/bg-1.jpg);
         width: 100%;
@@ -360,7 +384,7 @@ footer {
         display: none;
     }
     .h2-mobile {
-        display: block;
+        display: none;
     }
     button {
         display: none;
@@ -369,3 +393,4 @@ footer {
         display: block;
     }
 }
+
