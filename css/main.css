@@ -238,7 +238,7 @@ button {
     position: absolute;
     top: 367px;
     padding: 10px 50px;
-    right: 148px;
+    right: 134px;
     font-family: 'Aquire';
 }
 .footer-container {
@@ -301,22 +301,21 @@ footer {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 13px;
+    padding: 11px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
   }
   .topnav a:hover {
     transform: scale(1.5);
   }
   .topnav a.active {
-    background-color: #4CAF50;
     color: white;
   }
   .topnav .icon {
     display: none;
   }
 
-@media (max-width: 420px) {
+@media (max-width: 760px) {
     .topnav {
         display: block;
     }
