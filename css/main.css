@@ -182,7 +182,7 @@ h3 {
 }
 .album-box {
     padding: 20px;
-    width: 400px;
+    width: inherit;
 }
 .text-none {
     text-decoration: none;
@@ -397,5 +397,15 @@ footer {
     .button-2 {
         display: block;
     }
+}
+@media (max-width: 420px) {
+    .button-2{
+        position: absolute;
+        top: 361px;
+        padding: 10px 50px;
+        right: 65px;
+        font-family: 'Aquire';
+    }
+
 }
 
